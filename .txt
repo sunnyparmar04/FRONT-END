@@ -1,2 +1,9 @@
 <b>  </b> : bold latter 
+i         : italic latter
+u         : underline 
+&ndsp;    : space
 <br>      : line break
+p         : paragraph
+span      : use to group words
+h1 - h6   : for heading     
+hr        : horizontalline     
