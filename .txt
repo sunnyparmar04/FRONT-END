@@ -1,9 +1,15 @@
-<b>  </b> : bold latter 
-i         : italic latter
-u         : underline 
+<b></b> : bold latter 
+<i></i>     : italic latter
+<u></u>       : underline 
 &ndsp;    : space
 <br>      : line break
-p         : paragraph
-span      : use to group words
-h1 - h6   : for heading     
-hr        : horizontalline     
+<p></p>   : paragraph   (<p align="center">)
+<span></span>: use to group words
+h1 - h6     : for heading     
+<hr>         : horizontalline  
+<font></font>   :   for text font change      (like :- <font size="+3" color="red" face="verdana">)
+                                              (<font color='#B565F5' size=+1 face='Trebuchet MS'>)
+<strike></strike> : for half line break    (<strike>&#8377; 200</strike>)
+ <ol></ol> :oder list   (<ol type="1">)
+ <li></li> :list 
+ <ul></ul> :unoder list   ( <ul type="circle">)
