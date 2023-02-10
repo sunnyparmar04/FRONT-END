@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab:wght@500&display=swap');
+*
+{
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+body 
+{
+    background-color: #F1F0EB;
+    color:#4056a1;
+}
+#header 
+{
+    background-color: #d79922;
+    display: flex;
+    justify-content: space-between; /* horizontal aligment */
+    position: sticky;
+    top:0px;
+}
+#footer 
+{
+    background-color: #efe2ba;
+    position:sticky;
+    bottom: 0px;
+    padding:20px 0px;
+    text-align: center;
+}
+#logo-title
+{
+    display: flex;
+    align-items: center; /* vertical aligment */
+}
+#menu 
+{
+    display: flex;
+    list-style-type: none;
+    align-items: center; 
+}
+#logo-title>h1 
+{
+    font-size: 1.3em;
+    color:white;
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-family: 'Roboto Slab', serif;
+   
+}
+#menu>li>a:link , #menu>li>a:visited
+{
+    color:white;
+    padding:10px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+#menu>li>a:hover
+{
+    background-color: white;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#content
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#content>p 
+{
+    text-indent: 100px;
+    margin-bottom: 25px;
+    text-align: justify;
+    line-height: 125%;
+}
+#shop 
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.product
+{
+    width:calc(25% - 20px);
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.product:hover 
+{
+    /* @keyframes {
+        0% {
+            transform: perspective(400px) scaleX(1);
+        }
+    
+        100% {
+            transform: perspective(400px) scaleX(-1);
+        }
+    } */
+}
+.product>h3 
+{
+    text-align: center;
+    margin: 10px 0px;
+}
+.product>img 
+{
+    width: 100%;
+}
+.product>div
+{
+    display:flex;
+    justify-content: space-between;
+    height: 28px;
+}
+.product>div>span>a:link
+{
+    background-color:  #d79922;
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
