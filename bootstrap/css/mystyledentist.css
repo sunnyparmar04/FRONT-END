@@ -1,0 +1,44 @@
+*body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.carousel-item
+{
+   height: 550px;
+}
+.ffp
+{
+border: 10px solid black;
+text-align: center;
+}
+.bgimage
+{
+   background-image: url('../images/bgabout.jpg');
+   background-color: rgb(0, 0, 0);
+   opacity:1;
+}
+.bgteam
+{
+   background-image: url('../images/bg1.jpg');
+   background-color: rgb(0, 0, 0);
+   opacity:1;
+}
+.bgservices
+{
+   background-image: url('../images/SERVIES.jpg');
+   background-color: rgb(0, 0, 0);
+   opacity:1;
+}
+.bgappoiment
+{
+   background-image: url('../images/bookappoiment.jpg');
+   background-color: rgb(230, 62, 62);
+   background-repeat: no-repeat;
+   background-size: cover;
+
+}
+.centered
+{
+
+  
+ }
