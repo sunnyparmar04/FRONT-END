@@ -1,10 +1,10 @@
 *body
 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 .carousel-item
 {
-   height: 550px;
+   height: 600px;
 }
 .ffp
 {
@@ -37,8 +37,16 @@ text-align: center;
    background-size: cover;
 
 }
-.centered
+.s1
 {
-
-  
- }
+ height: 100px;
+}
+.s5
+{
+ height: 120px;
+}
+.a1
+{
+   margin-top: 40px;
+ height: 250px;
+}
