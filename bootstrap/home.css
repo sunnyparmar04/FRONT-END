@@ -1,0 +1,36 @@
+.card-img {
+    opacity: 0.4;
+  }
+  
+  .carousel-caption .display-4 {
+    font-family: serif;
+    color: black;
+  }
+  
+  .navbar {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 6%, rgba(192, 194, 196, 1) 66%, rgba(157, 160, 163, 1) 83%);
+    font-size: 15px;
+    text-transform: capitalize;
+    font: bold;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #000;
+  }
+  
+  .navbar .nav-item:hover .nav-link {
+    color: #fe8906;
+  }
+  
+  
+  .footer {
+    background: linear-gradient(90deg, rgba(103, 107, 111, 1) 0%, rgba(160, 193, 192, 1) 100%);
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  .carousel-inner .item > img {
+    /* -webkit-animation: zoom 30s; */
+    animation: zoom 30s;
+    images/bg1.jpg
